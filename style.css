@@ -1,0 +1,149 @@
+/*-------------------------------------------------- 
+section1 
+-------------------------------------------*/
+section
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+span
+{
+    color:#ff284f;
+}
+a
+{
+    text-decoration: none;
+}
+button
+{
+    background-color: #45c881;
+    margin-top:60px;
+    margin-left: 130px;
+    padding:10px;
+    border-radius: 5px;
+    border:0px solid;
+    
+}
+button a
+{
+    color:white;
+}
+.container
+{
+    width:1150px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding:48px;
+    background-color: #F7F8FA;
+
+}
+.container1
+{
+    width:568px;
+    height: 397px;
+    padding:12px;
+    margin-top:-90px;
+}
+.containerbox
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.containerheading h1
+{
+    font-size: 3em;
+}
+.containerheading p
+{
+    margin-top: -20px;
+}
+.containerbox-1
+{
+    height: 130px;
+    width:133px;
+    margin-top:15px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.containerbox-1:hover
+{
+    background-color: rgb(112, 111, 111);
+    color:white;
+}
+.containerimg img
+{
+          width:96px;
+          height:96px;
+}
+.imagedetail
+{
+    color:#3F3F3F;
+}
+.container2 img
+{
+    width:468px;
+    height: 370px;
+}
+/* ----------------
+ box----------------- */
+ .imgbox img
+ {
+     width:347px;
+     height: 179px;
+ }
+ .box 
+ {
+     display: flex;
+ }
+ .mainbox
+ {
+     margin:10px;
+     width:347px;
+    height: 496px;
+    background-color: #F7F8FA;
+    padding:9px;
+    border-radius: 15px;
+ }
+ .detailbox
+ {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     row-gap: 12px;
+ }
+ .gridbox
+ {
+     width:135px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     border-radius: 15px;
+     padding:0px 12px;     
+ }
+ .gridbox3,.gridbox6
+ {
+    grid-column-start: 1;
+    margin-left: 80px;
+    grid-column-end: 3;
+    
+ }
+ .boxhead h1
+ {
+     text-align: center;
+ }
+ .round
+ {
+     color:green;
+ }
+ 
